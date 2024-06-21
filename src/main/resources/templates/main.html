@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>main</title>
 </head>
 <body>
-$END$
+     session 값 확인: <p th:text="${session.loginEmail}"></p>
 </body>
 </html>
